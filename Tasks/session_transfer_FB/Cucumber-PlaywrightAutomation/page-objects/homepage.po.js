@@ -83,7 +83,7 @@ exports.Homepage = class Homepage extends BaseAction {
         await this.wait(2);
         await this.click(this.elements.logout2);
         await this.wait(2);
-        // await this.openNewTab(global.BASE_URL);
+        // await this.openNewTab(global.BASE_URL); 
     }
 
     async loginProcess_2(loginData) {
